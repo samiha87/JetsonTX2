@@ -1,5 +1,5 @@
 # JetsonTX2_Tools
-Contains tools and scripts that's suitable for Jetson TX2
+Contains tools, scripts and examples that's suitable for Jetson TX2
 WVDIAL has been tested succesfully on Jetson TX2. Had issues initializing HUAWEI USB-modem on host pc.
 
 ## Build crosscompile environment with Qt
