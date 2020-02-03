@@ -1,6 +1,7 @@
 # JetsonTX2_Tools
 Contains tools, scripts and examples that's suitable for Jetson TX2
 WVDIAL has been tested succesfully on Jetson TX2. Had issues initializing HUAWEI USB-modem on host pc.
+https://developer.nvidia.com/embedded/jetson-tx2
 
 ## Build crosscompile environment for Qt
 This allows you to build a copy of your jetson and have exact environment on your host pc. 
