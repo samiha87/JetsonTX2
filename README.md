@@ -3,6 +3,7 @@ Contains tools, scripts and examples that's suitable for Jetson TX2
 WVDIAL has been tested succesfully on Jetson TX2. Had issues initializing HUAWEI USB-modem on host pc.
 
 ## Build crosscompile environment with Qt
+This allows you to build a copy of your jetson and have exact environment on your host pc. 
 
 Set jetson tx to recovery mode
 While Jetson is turned off, press and hold recovery button. Power on the jetson and release recovery button.
