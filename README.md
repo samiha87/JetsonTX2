@@ -30,23 +30,16 @@ While Jetson is turned off, press and hold recovery button. Power on the jetson 
 ### Mount the created image
 1. sudo -s
 2. mkdir /usr/local/loopback_tx2
-3. mount -o loop,ro ./backup.img.raw /usr/localo/loopback_tx2
+3. mount -o loop,ro ./backup.img.raw /usr/local/loopback_tx2
 4. cd /usr/lib
 5. mv aarch64-linux-gnu original_aarch64-linux-gnu
-6. ln -s /usr/local/loopback_tx2/usr/lib/aarch64-linux-gnu
+6. ln -s /usr/local/loopback_tx2/usr/lib/aarch64-linux-gnu .
 7. exit
 
 ### Create a new kit for Jetson on host pc Qt Creater
 1. Open Qt Creator
-2. Go to tools and select options.
-3. From options select Kits/Compilers.
-4. Add Compiler for C and C++.
-5. Configure C compiler -> Name NVIDIA Jetson(C), Set Compiler path /usr/local/loopback_tx2/usr/bin/g++-7, Set ABI to arm - linux - generic - elf 64bits
-6. Configure C++ compiler -> Name NVIDIA Jetcon(C++), Set Compiler path /usr/local/loopback_tx2/usr/bin/g++, Set ABI to arm - linux - generic - elf 64bits
-7. Select Debuggers tab and add.
-8. Configure debugger -> Name NVIDIA Jetson Debugger, Set path /usr/local/loopback_tx2/usr/bin/gdb
-9. Select Qt Versions and add new.
-10. Select qmake from /usr/local/loopback_tx2/usr/lib/qt5/bin/qmake
+2. Go to projects and open manage kits.
+3. 
  
 # References
 - https://dev.intelrealsense.com/docs/nvidia-jetson-tx2-installation

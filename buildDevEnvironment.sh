@@ -11,5 +11,5 @@ cd /usr/lib
 echo "Creating backup of aarch64 symbols"
 sudo mv aarch64-linux-gnu original_aarch64-linux-gnu
 echo "Create symbolic links to mounted device"
-sudo ln -s /usr/local/loopback_tx2/usr/lib/aarch64-linux-gnu
+sudo ln -s /usr/local/loopback_tx2/usr/lib/aarch64-linux-gnu .
 exit
