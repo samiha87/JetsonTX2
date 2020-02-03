@@ -22,8 +22,7 @@ While Jetson is turned off, press and hold recovery button. Power on the jetson 
 
 ### Clone Jetson
 1. Set Jetson to recovery mode
-2. Enter to your Jetson installation folder on host pc
-If installing on Jetson TX1 or TX2 change platform name to jetson-tx1 or jetson-tx2
+2. Enter to your Jetson installation folder on host pc. If installing on Jetson TX1 or TX2 change platform name to jetson-tx1 or jetson-tx2
 3. sudo ./flash.sh -r -k APP -G backup.img jetson-tx2-4GB mmcblk0p1 
 
 
