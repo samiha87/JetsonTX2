@@ -38,7 +38,7 @@ If installing on Jetson TX1 or TX2 change platform name to jetson-tx1 or jetson-
 Create a new kit for Jetson on host pc Qt Creater
 1. Open Qt Creator
 2. Go to projects and open manage kits.
-3.
+3. 
  
 # References
 - https://dev.intelrealsense.com/docs/nvidia-jetson-tx2-installation
