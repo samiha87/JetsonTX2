@@ -43,3 +43,4 @@ Create a new kit for Jetson on host pc Qt Creater
 # References
 - https://dev.intelrealsense.com/docs/nvidia-jetson-tx2-installation
 - https://dev.intelrealsense.com/docs/compiling-librealsense-for-linux-ubuntu-guide
+- https://devtalk.nvidia.com/default/topic/1043115/jetson-tx2/cross-compiler-version-problem/post/5292337/#5292337
