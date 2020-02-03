@@ -24,6 +24,7 @@ While Jetson is turned off, press and hold recovery button. Power on the jetson 
 1. Set Jetson to recovery mode
 2. Enter to your Jetson installation folder on host pc. If installing on Jetson TX1 or TX2 change platform name to jetson-tx1 or jetson-tx2
 3. sudo ./flash.sh -r -k APP -G backup.img jetson-tx2-4GB mmcblk0p1 
+3.1. If you get error message CPU Bootloader is not running, ensure that selected platform is correct.
 
 
 ### Mount the created image
