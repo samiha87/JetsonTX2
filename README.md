@@ -21,7 +21,9 @@ Install Qt
 Clone Jetson
 1. Set Jetson to recovery mode
 2. Enter to your Jetson installation folder on host pc
-3. sudo ./flash.sh -r -k APP -G backup.img jetson-tx2-4GB mmcblk0p1
+If installing on Jetson TX1 or TX2 change platform name to jetson-tx1 or jetson-tx2
+3. sudo ./flash.sh -r -k APP -G backup.img jetson-tx2-4GB mmcblk0p1 
+
 
 1. Mount the created image
 2. sudo -s
